@@ -1,0 +1,10 @@
+No logs to delete. In folder: 6. To keep: 10.
+[2025-01-06 05:00:05]: Script started.
+[2025-01-06 05:00:05]: Getting offline tournament data...
+Traceback (most recent call last):
+  File "/home/vilmer/scripts/melee_tournaments/src/rd_tournaments.py", line 199, in <module>
+    main()
+  File "/home/vilmer/scripts/melee_tournaments/src/rd_tournaments.py", line 57, in main
+    tournament_list = tournament_data["data"]["tournaments"]["nodes"]
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
