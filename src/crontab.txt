@@ -22,5 +22,5 @@
 #
 # m h  dom mon dow   command
 
-# RD tournaments, every Monday at 5:00 AM
+# DR tournaments, every Monday at 5:00 AM
 0 5 * * 1 /home/user/scripts/melee_tournaments/src/dr_tournaments.sh >> /home/user/scripts/melee_tournaments/logs/dr_tournaments_$(date +\%Y\%m\%d_\%H\%M\%S).log 2>&1
